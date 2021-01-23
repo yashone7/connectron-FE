@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+.nav-font {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+#main-container {
+  background-image: url('../assets/main-bg.png');
+  background-position: right 35% bottom 45%;
+}
+
+@media only screen and (max-width: 1000px) {
+  #main-container {
+    background-image: url('../assets/main-bg.png');
+    background-position: right 45% bottom 45%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #main-container {
+    background-image: url('../assets/main-bg.png');
+    background-position: right 41% bottom 45%;
+  }
+}
